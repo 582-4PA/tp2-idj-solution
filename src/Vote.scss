@@ -1,0 +1,15 @@
+.Vote {
+  .btn-vote {
+    border-radius: 0.5rem;
+    font-size: 0.8rem; 
+    margin-right: 0.25rem;
+  }
+
+  .btn-vote.up:hover {
+    background-color: rgba(0, 200, 0, 0.5);
+  }
+
+  .btn-vote.down:hover {
+    background-color: rgba(200, 0, 0, 0.5);
+  }
+}

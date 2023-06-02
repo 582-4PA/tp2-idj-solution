@@ -1,0 +1,19 @@
+.ControleJour {
+	.controle-nav {
+		display: flex;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+		margin-bottom: 0.5rem;
+		.ctrl {
+			cursor: pointer;
+			// font-size: 2rem;
+			background-color: rgba(30, 30, 30, 0.85);
+		}	
+	}
+
+	.jour-courant {
+		display: inline-block;
+		background-color: white;
+		padding: 0.5rem 1rem;
+	}
+}

@@ -1,0 +1,28 @@
+.Aime {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.70rem;
+  background-color: #111;
+  color: white;
+  padding: 0rem 1.25rem;
+  margin: 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+
+  .aime-icone {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    cursor: pointer;
+    font-weight: bold;
+    
+    &.aime-etat-0 {
+      color: #444;
+    }
+
+    &.aime-etat-1 {
+      color: rgb(169, 0, 0);
+    }
+  }
+
+  
+}
